@@ -5,7 +5,8 @@
 string[] newArray = new string[array.Length];
 int size = 3;
 
-
+ArrayElemetsFiltered(array, newArray);
+PrintArray(newArray);
 
 void ArrayElemetsFiltered(string[] firstArray, string[] secondArray)
 {
